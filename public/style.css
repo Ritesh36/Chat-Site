@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin-left: 10px;
+}
+
+.chat{
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.msg{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.signin{
+    border: 2px solid black;
+    margin: 100px 250px;
+    padding: 100px;
+    position: relative;
+    background-color: bisque;
+}
+
+.signin input{
+    height: 30px;
+    width: 600px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.signin h1 {
+    text-align: center;
+}
+
+.signin button{
+    padding: 5px 10px;
+    position: absolute;
+    right: 200px;
+}
